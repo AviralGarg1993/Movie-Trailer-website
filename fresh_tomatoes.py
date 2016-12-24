@@ -178,7 +178,8 @@ def create_movie_tiles_content(movies):
     for movie in movies:
 	print len(movies)- counter
 	counter+=1
-	movie_string = movie.title.translate(None, '\'')
+	movie_string = movie.title.translate(None, '\',:')
+	print movie_string
 	movie_string = movie_string.replace(' ', '-').lower()
 	
 	conn = httplib.HTTPSConnection("api.themoviedb.org")
