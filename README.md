@@ -9,6 +9,7 @@ Source code for a Movie Trailer website.
         1. calls open_movies_page function to render webpage
 
 # Features for future
+1. Secure scripts calling for easier deployment (currently need to enable unsecure scripts in chrome)
 1. Randomize the suggestions
 1. Open in Netflix or putlocker
     1. ask (good ux) what suggestions you wish to see
